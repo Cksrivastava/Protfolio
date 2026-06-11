@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himanshu | Full Stack Developer Portfolio</title>
+
+  <!-- Meta Tags for SEO -->
+  <meta name="description"
+    content="Professional portfolio of Himanshu, a Full Stack Developer experienced in Python, Django, React.js, and SQL. View projects, experience, and contact details." />
+  <meta name="keywords"
+    content="Himanshu, Full Stack Developer, Python Developer, Django, React.js, SQL, Dizi Global Solutions, Pentagon Space, HCL Technologies, Varanasi, Portfolio" />
+
+  <!-- Google Fonts: Plus Jakarta Sans (Headers) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Style Sheet -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- 🌌 AMBIENT BACKGROUND GLOW ORBS -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- 🧭 SITE NAVIGATION HEADER -->
+  <header class="site-header" id="home">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        H<span>IMANSHU</span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle Navigation Menu">
+        &#x2630;
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav class="nav" id="nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certificate</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 🌟 HERO SECTION -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge">🚀 Seeking Opportunities</div>
+          <h1 class="hero-title">
+            Building Scalable <span class="accent-text">Web Systems</span>
+          </h1>
+          <p class="hero-description">
+            Hello, I'm <strong style="color: #0f172a;">Himanshu</strong>, a Full Stack Developer with hands-on
+            experience in building scalable web applications and backend systems. I focus on clean architecture,
+            performance optimization, and user-centric solutions.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get In Touch</a>
+            <a class="btn btn-outline" href="himanshu.pdf" download="himanshu.pdf" id="downloadBtn">
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <!-- 💻 CODE TERMINAL COMPONENT -->
+        <div class="hero-visual">
+          <div class="terminal-container">
+            <div class="terminal-header">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+              <span class="terminal-title">developer.py - Vim</span>
+            </div>
+            <div class="terminal-body">
+              <code
+                class="code-line"><span class="code-keyword">class</span> <span class="code-class">FullStackDeveloper</span>:</code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-func">__init__</span>(<span class="code-self">self</span>):</code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-self">self</span>.name = <span class="code-string">"Himanshu"</span></code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-self">self</span>.role = <span class="code-string">"Full Stack Developer"</span></code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-self">self</span>.languages = [<span class="code-string">"Python"</span>, <span class="code-string">"SQL"</span>, <span class="code-string">"JavaScript"</span>]</code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-self">self</span>.frameworks = [<span class="code-string">"Django"</span>, <span class="code-string">"Flask"</span>, <span class="code-string">"React.js"</span>, <span class="code-string">"Node.js"</span>]</code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-self">self</span>.databases = [<span class="code-string">"MySQL"</span>, <span class="code-string">"MongoDB"</span>]</code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-self">self</span>.location = <span class="code-string">"Varanasi, India"</span></code>
+              <code class="code-line"></code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-func">get_philosophy</span>(<span class="code-self">self</span>):</code>
+              <code
+                class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span> <span class="code-string">"Clean code, scalable backends, responsive interfaces."</span></code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🎓 ABOUT & EDUCATION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-header">
+          <h2 class="section-title">About & <span class="accent-text">Education</span></h2>
+          <p class="section-subtitle">A view of my background, core objectives, and academic timeline.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-creative-panel">
+            <div class="about-badge-cloud">
+              <span class="cloud-item">Clean Architecture</span>
+              <span class="cloud-item">Scalable Systems</span>
+              <span class="cloud-item">RESTful APIs</span>
+              <span class="cloud-item">Relational Databases</span>
+              <span class="cloud-item">Responsive Design</span>
+              <span class="cloud-item">Performance Tuning</span>
+            </div>
+            <div class="about-quote-box">
+              <p class="quote-text">"Seeking to contribute to high-performance engineering teams to deliver robust
+                software solutions."</p>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h3>Education Timeline</h3>
+            <div class="timeline">
+
+              <div class="timeline-item">
+                <div class="timeline-header">
+                  <h4 class="timeline-title">B.Tech in Computer Science Engineering</h4>
+                  <span class="timeline-date">Completed 2025</span>
+                </div>
+                <p class="timeline-institution">Kashi Institute of Technology, Varanasi</p>
+                <p class="timeline-detail-text">
+                  Focused on computer science algorithms, systems design, and database workflows. Completed with an
+                  academic score of <strong>7.32 CGPA / 10</strong>.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-header">
+                  <h4 class="timeline-title">Diploma in Electrical Engineering</h4>
+                  <span class="timeline-date">Completed 2022</span>
+                </div>
+                <p class="timeline-institution">Ambition Institute of Technology, Varanasi</p>
+                <p class="timeline-detail-text">
+                  Acquired valuable insights into logic gate architectures, circuit modeling, electrical systems logic,
+                  and technical mathematics.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🎯 TECHNICAL SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Technical <span class="accent-text">Skills</span></h2>
+        <p class="section-subtitle">The backend frameworks, databases, and front-end utilities that make up my
+          development toolkit.</p>
+
+        <div class="skills-grid">
+
+          <!-- Category 1: Languages & Core -->
+          <div class="skills-category">
+            <h3 class="category-title">
+              <span class="title-icon">💻</span> Core Languages
+            </h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript (ES6+)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Frameworks -->
+          <div class="skills-category">
+            <h3 class="category-title">
+              <span class="title-icon">⚙️</span> Frameworks & APIs
+            </h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">React.js</span>
+                  <span class="skill-percentage">82%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="82%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Flask / Django</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Node.js / REST APIs</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Databases & Tools -->
+          <div class="skills-category">
+            <h3 class="category-title">
+              <span class="title-icon">🛠️</span> Databases & Tools
+            </h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MySQL / MongoDB</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Git & GitHub / VS Code</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Tableau (Data Visualization)</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-width="75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 💼 EXPERIENCE & INTERNSHIPS -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Work <span class="accent-text">Experience</span></h2>
+        <p class="section-subtitle">Real-world development experience, technical internships, and professional training
+          cycles.</p>
+
+        <div class="experience-cards">
+
+          <!-- Experience 1 -->
+          <div class="experience-card">
+            <div class="exp-meta">
+              <div class="exp-icon">💻</div>
+              <span class="exp-date">March 2026 — Present</span>
+            </div>
+            <div class="exp-detail">
+              <h3>Web Developer</h3>
+              <span class="exp-company">Dizi Global Solutions</span>
+              <ul class="exp-description">
+                <li>Developed and maintained responsive web applications using React.js, API integrations, and backend
+                  optimizations for improved performance and scalability.</li>
+                <li>Delivered multiple projects, including e-commerce, property booking, gaming platforms, business
+                  websites, and custom web solutions with responsive and user-friendly interfaces.</li>
+                <li>Collaborated with cross-functional teams to design, develop, test, and deploy web applications
+                  according to client requirements.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="experience-card">
+            <div class="exp-meta">
+              <div class="exp-icon">🐍</div>
+              <span class="exp-date">May 2025 — March 2026</span>
+            </div>
+            <div class="exp-detail">
+              <h3>Python Full Stack Developer Trainee</h3>
+              <span class="exp-company">Pentagon Space Pvt. Ltd.</span>
+              <ul class="exp-description">
+                <li>Built backend modules using Flask, MySQL, and REST APIs.</li>
+                <li>Designed database schemas and improved system efficiency.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="experience-card">
+            <div class="exp-meta">
+              <div class="exp-icon">📊</div>
+              <span class="exp-date">Nov 2024 — March 2025</span>
+            </div>
+            <div class="exp-detail">
+              <h3>Data Engineering Intern</h3>
+              <span class="exp-company">HCL Technologies</span>
+              <ul class="exp-description">
+                <li>Developed Tableau dashboards for data insights.</li>
+                <li>Worked on large datasets (500K+ records) for data visualization and analysis.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 🚀 PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">My <span class="accent-text">Projects</span></h2>
+        <p class="section-subtitle">A catalog of custom-built applications, web platforms, and custom backend utilities.
+        </p>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=600&q=80"
+                alt="E-Commerce Platform" />
+              <div class="project-tags">
+                <span class="project-tag">React.js</span>
+                <span class="project-tag">API Integration</span>
+                <span class="project-tag">MySQL</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <p class="project-description">
+                A responsive web storefront integrating modular React component systems, smooth cart handling, order
+                workflows, and database schema mappings.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Cksrivastava" target="_blank" class="project-link">
+                  Project Code &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80"
+                alt="Dubai Restaurant" />
+              <div class="project-tags">
+                <span class="project-tag">HTML5 / CSS3</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">API</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Dubai Restaurant</h3>
+              <p class="project-description">
+                A high-end restaurant digital showcase application featuring online seat reservations, interactive food
+                menu sliders, and media asset layout views.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Cksrivastava" target="_blank" class="project-link">
+                  Project Code &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=600&q=80"
+                alt="Travel & Tour" />
+              <div class="project-tags">
+                <span class="project-tag">React.js</span>
+                <span class="project-tag">Flask</span>
+                <span class="project-tag">MongoDB</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Travel & Tour Booking System</h3>
+              <p class="project-description">
+                A custom booking dashboard supporting destination filtering, reservation scheduling models, price
+                calculations, and structured data storage.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Cksrivastava" target="_blank" class="project-link">
+                  Project Code &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+                alt="Restaurant Food Booking" />
+              <div class="project-tags">
+                <span class="project-tag">React.js</span>
+                <span class="project-tag">REST APIs</span>
+                <span class="project-tag">MySQL</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Restaurant Food Booking</h3>
+              <p class="project-description">
+                A responsive food ordering module featuring dynamic card filtering, item choices addition, order
+                validation logic, and query interfaces.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Cksrivastava" target="_blank" class="project-link">
+                  Project Code &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80"
+                alt="LMS" />
+              <div class="project-tags">
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">REST APIs</span>
+                <span class="project-tag">MongoDB</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Learning Management System</h3>
+              <p class="project-description">
+                An online educational portal indexing course databases, tracking student progress, and supporting study
+                document sharing rules.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Cksrivastava" target="_blank" class="project-link">
+                  Project Code &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=600&q=80"
+                alt="Library System" />
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">MySQL</span>
+                <span class="project-tag">REST API</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Library Management System</h3>
+              <p class="project-description">
+                A backend bookkeeping database utility built to track catalog items, lend approvals, member profiles,
+                and late fee processing parameters.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Cksrivastava/LMS" target="_blank" class="project-link">
+                  Project Code &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 📜 CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <h2 class="section-title">Certifications & <span class="accent-text">Credentials</span></h2>
+        <p class="section-subtitle">Validations of technical competency across programming, data architectures, and
+          logic design.</p>
+
+        <div class="certs-grid">
+
+          <div class="cert-card">
+            <div class="cert-icon">🐍</div>
+            <div class="cert-info">
+              <h3>Python Programming Fundamentals</h3>
+              <p class="cert-issuer">Infosys Springboard</p>
+            </div>
+            <a href="https://github.com/Cksrivastava" target="_blank" class="cert-verify">
+              Verify Credential &rarr;
+            </a>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🎓</div>
+            <div class="cert-info">
+              <h3>Master in Python Programming</h3>
+              <p class="cert-issuer">Udemy Professional Certificate (Beginner to Advanced)</p>
+            </div>
+            <a href="https://github.com/Cksrivastava" target="_blank" class="cert-verify">
+              Verify Credential &rarr;
+            </a>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">💾</div>
+            <div class="cert-info">
+              <h3>SQL and Python (Basics)</h3>
+              <p class="cert-issuer">HackerRank Verification</p>
+            </div>
+            <a href="https://github.com/Cksrivastava" target="_blank" class="cert-verify">
+              Verify Credential &rarr;
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 📞 GET IN TOUCH -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In <span class="accent-text">Touch</span></h2>
+        <p class="section-subtitle">Let's build something scalable together. Reach out via email, phone, or send a
+          direct message.</p>
+
+        <div class="contact-grid">
+          <div class="contact-info-panel">
+
+            <div class="contact-item">
+              <div class="contact-icon-placeholder">📍</div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Varanasi, Uttar Pradesh, India</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon-placeholder">✉️</div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <a href="mailto:cksrivastava49@gmail.com">cksrivastava49@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon-placeholder">📞</div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <a href="tel:+919119628489">+91 9119628489</a>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/Cksrivastava" target="_blank" class="social-link" title="GitHub">
+                <span class="social-icon">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </span>
+                <span class="social-label">GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/himanshu-3ab49a293/" target="_blank" class="social-link" title="LinkedIn">
+                <span class="social-icon">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </span>
+                <span class="social-label">LinkedIn</span>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="contact-form-panel">
+            <form class="contact-form" id="contactForm">
+              <!-- Web3Forms Config -->
+              <input type="hidden" name="access_key" value="648ac55b-e705-45ab-a00f-618efc4345ca" />
+              <input type="hidden" name="subject" value="New Portfolio Contact Submission" />
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
+
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Mobile Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" class="form-control" placeholder="Enter your number" required title="Please enter a valid 10-digit mobile number" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Hi Himanshu, let's talk about..."
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="submitBtn">Send Message</button>
+              <div id="formResult" class="form-result"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 🏁 FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-text">
+        &copy; 2026 Himanshu. Built with HTML, CSS & JS.
+      </div>
+      <div class="footer-text">
+        <a href="#home">Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Interactivity -->
+  <script src="script.js"></script>
+</body>
+
+</html>

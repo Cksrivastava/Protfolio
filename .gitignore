@@ -1,0 +1,12 @@
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# Node dependencies (if added later)
+node_modules/
+
+# Build output (if added later)
+dist/
+build/
